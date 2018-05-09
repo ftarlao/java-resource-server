@@ -48,9 +48,8 @@ public class PageEndpoint extends BaseResourceEndpoint {
         // Extract an access token from either the Authorization header or
         // the request parameters. The Authorization header takes precedence.
         // See RFC 6750 (Bearer Token Usage) about the standard ways to accept
-        // an access token from a client application.
+        // an access token from a client application.          
         String token = extractAccessToken(authorization, accessToken);
-
         return process(token);
     }
 
@@ -78,7 +77,7 @@ public class PageEndpoint extends BaseResourceEndpoint {
                 + "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n"
                 + "    </head>\n"
                 + "    <body style=\"background-color:#E6E6FA\">\n"
-                + "        <h1>WAITING</h1> \n"
+                + "        <h1>PROTECTED CONTENTG</h1> \n"
                 + "    </body>\n"
                 + "</html>";
 
