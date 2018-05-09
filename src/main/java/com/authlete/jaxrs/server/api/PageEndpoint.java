@@ -77,7 +77,7 @@ public class PageEndpoint extends BaseResourceEndpoint {
                 + "        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n"
                 + "    </head>\n"
                 + "    <body style=\"background-color:#E6E6FA\">\n"
-                + "        <h1>PROTECTED CONTENTG</h1> \n"
+                + "        <h1>PROTECTED RESOURCE<br/><br/>SUCCESS!</h1> \n"
                 + "    </body>\n"
                 + "</html>";
 
